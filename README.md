@@ -1,4 +1,4 @@
-# Tennis Match Outcome Prediction – Workflow Summary
+# Grand Slams Outcome Prediction – Workflow Summary
 
 ## 1. Data Collection & Cleaning (`01_data_filtering_cleaning.ipynb`)
 - Loaded ATP match dataset (Jeff Sackmann’s `atp_matches_1968-2024`).
@@ -22,7 +22,7 @@
 - Exported `final_df.csv` for model_trainig.
 
 
-## 4. Model Training (`model_training.ipynb`)
+## 4. Model Training (`04_model_training.ipynb`)
 - Train Test Split were done.
 - Models tried:
   - Logistic Regression (F1 ≈ **0.7334**)
